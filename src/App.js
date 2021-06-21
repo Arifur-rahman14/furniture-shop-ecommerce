@@ -53,12 +53,6 @@ function App() {
           <PrivateRoute path='/Orders'>
             <Orders></Orders>
           </PrivateRoute>
-         {/* <PrivateRoute path='/Admin/:id'>
-             <Admindash/>
-          </PrivateRoute> */}
-          {/* <PrivateRoute path='/Orders'>
-            <Orders/>
-          </PrivateRoute> */}
         <Route path="*">
             <Error></Error>
         </Route>
